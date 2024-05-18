@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    scroll-behavior: smooth;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+h1{
+    flex: .5;
+}
+
+nav{
+    flex: 1;
+}
+
+ul.nav-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    list-style-type: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+section{
+    min-height: 300px;
+    margin: 20px 3Opx;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h2{
+    font-size: 30px;
+}
+section#Welcome{
+background-image: url(./img5.jpg);
+}
+
+section#Photo ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+ul.image li img{
+    width: 350x;
+    height: 350px;
+}
+
+section#Video video{
+    width: 90%;
+    max-height: 600px;
+}
+
+section#contact{
+    background-color: black;
+    color: white;
+}
